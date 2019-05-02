@@ -17,12 +17,79 @@ tags: [css]
     }
 ```
 
-#### 二、使用position+margin让元素水平垂直居中
+#### 二、使用position + margin让元素水平垂直居中
 
 ```html
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+```
 
+```css
+    .parent {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background-color: aqua;
+    }
+    .child {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -50px;
+        background-color: blueviolet;
+    }
 ```
 
 #### 三、使用position + transform实现水平垂直居中;
 
+```html
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+```
+
+```css
+    .parent {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background-color: aqua;
+    }
+    .child {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: blueviolet;
+    }
+```
+
 #### 四、使用flex布局实现水平垂直居中;
+
+```html
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+```
+
+```css
+    .parent {
+        width: 500px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aqua;
+    }
+    .child {
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+    }
+```

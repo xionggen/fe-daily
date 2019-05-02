@@ -1,7 +1,7 @@
 ---
 title: 聊聊页面的水平垂直居中布局
 date: 2019-04-20 15:26:21
-tags: css
+tags: [css]
 ---
 
 #### 一、使用margin: 0 auto;让元素水平居中

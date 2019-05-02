@@ -1,7 +1,7 @@
 ---
 title: 闭包的学习和理解
 date: 2019-04-20 15:55:00
-tags: javascript
+tags: [javascript, js]
 ---
 
 #### 1.什么是闭包

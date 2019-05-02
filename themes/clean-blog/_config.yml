@@ -1,8 +1,8 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
-  # Tags: /tags
+  # Archives: /archives
+  Tags: /tags
   # Categories: /categories
   Github:
     url: https://github.com/xionggen/fe-daily
